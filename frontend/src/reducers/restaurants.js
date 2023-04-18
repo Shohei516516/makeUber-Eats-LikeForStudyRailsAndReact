@@ -5,7 +5,7 @@ export const initialState = {
   restaurantsList: [],
 };
 
-export const restaurantsActiontyps = {
+export const restaurantsActionTyps = {
   FETCHING: 'FETCHING',
   FETCH_SUCCESS: 'FETCH_SUCCESS'
 };
