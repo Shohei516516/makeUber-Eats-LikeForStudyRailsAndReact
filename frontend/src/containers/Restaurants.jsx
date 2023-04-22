@@ -1,6 +1,5 @@
 import React, { Fragment, useReducer, useEffect } from 'react';
 import styled from 'styled-components';
-
 import { Link } from "react-router-dom";
 
 //components
@@ -78,7 +77,7 @@ export const Restaurants = () => {
           payload: {
             restaurants: data.restaurants
           }
-        })
+        }),
       )
   }, [])
 
